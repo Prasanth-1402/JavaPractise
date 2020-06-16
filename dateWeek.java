@@ -52,10 +52,8 @@ public class dateWeek {
                 monthTotalDays += 31;
 
         }
-
         return monthTotalDays;
     }
-
 
     public static int getDate() {
         int date = scan.nextInt();
@@ -94,6 +92,5 @@ public class dateWeek {
             }
         }
         return totaldays;
-
     }
 }
