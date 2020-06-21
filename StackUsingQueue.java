@@ -22,8 +22,7 @@ public class StackUsingQueue {
 
     public int pop(){                                               //Popping Value
         if(!stack.isEmpty()){
-            int length = stack.size()-1;
-            return stack.remove(length);}
+            return stack.remove(0);}
         return -1;
     }
 
@@ -42,6 +41,7 @@ public class StackUsingQueue {
         stack.push(8);
         stack.push(4);
         stack.push(7);
+        System.out.println(stack.stack);
         System.out.println(stack.Empty()+", that it an Empty Stack");
         System.out.println(stack.top()+" is the Top Element in the stack Right now");
         System.out.println(stack.pop()+" is Popped Out");
